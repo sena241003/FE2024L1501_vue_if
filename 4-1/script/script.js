@@ -3,7 +3,7 @@ new Vue({
     el: '#app',
     data() {
         return {
-            count: 1
+            count: 59
         };
     },
     methods: {
@@ -13,5 +13,14 @@ new Vue({
         decrement() {
             this.count --;
         }
+    },
+    methods:{
+        increment(){
+            this.count++;
+        },
+        decrement(){
+            this.count--;
+        }
     }
+    
 });
